@@ -1,0 +1,31 @@
+{
+	"lines": [
+		{
+			"id": 0,
+			"character": "NPC",
+			"text": "Good day adventurer!",
+			"replies": [1]
+		},
+		{
+			"id": 1,
+			"character": "NPC",
+			"text": " I need you to bring me 5 things.",
+			"replies": [2, 3]
+		},
+		{
+			"id": 2,
+			"text": "I'm in.",
+			"replies": [4]
+		},
+		{
+			"id": 3,
+			"text": "I'm not doing that."
+		},
+		{
+			"id": 4,
+			"character": "NPC",
+			"text": "I'll wait for you just standing here.",
+			"event": "fetch_quest"
+		}
+	]
+}
